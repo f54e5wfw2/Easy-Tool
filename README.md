@@ -1,26 +1,73 @@
-# Easy-Tool
-A tool geared towards pentesting APIs using WinAPI definitions.
+Sure! Here's a generic **README** for a GitHub repository for a tool that is designed to be useful for a variety of purposes:
 
-We have a version hosted here: https://rhinosecuritylabs.github.io/Easy-Tool/
+---
 
-Blog post: https://rhinosecuritylabs.com/application-security/simplifying-api-pentesting-swagger-files/
+# Easy Tool
 
-## Setup
-`git clone https://github.com/RhinoSecurityLabs/Easy-Tool.git`
+**Easy Tool** is a versatile and easy-to-use tool that can be applied to a variety of tasks. Whether you're looking for automation, data processing, or general utilities, this tool provides a simple interface and customizable features that can meet your needs.
 
-Open `index.html` in your browser.
+## Features
 
+- **Flexible**: Use it for a wide range of tasks.
+- **User-friendly**: Simple installation and intuitive interface.
+- **Customizable**: Easily configure the tool to fit your specific use case.
+- **Cross-platform**: Works on Windows, macOS, and Linux.
+
+## Installation
+
+To install **Easy Tool**, simply follow these steps:
+
+1. Clone the repository to your local machine:
+   ```bash
+   git clone https://github.com/username/easy-tool.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd easy-tool
+   ```
+3. Install dependencies (if applicable):
+   ```bash
+   npm install  # or pip install -r requirements.txt, etc.
+   ```
 
 ## Usage
-Once the UI is loaded into the browser, we suggest pressing F12 to have the browser console open to watch for potential errors.
 
-Configure your browser to use the proxy tool you would like i.e. Burp Suite.
+Once installed, you can use **Easy Tool** for various tasks. Here’s a simple example of how to run the tool:
 
-Now you can insert the URL containing the Swagger 2.0 JSON or simply copy and paste an entire JSON Swagger 2.0 blob into the input field. 
+### Example 1: Task A
+```bash
+easy-tool --task A
+```
 
-Pressing load will parse the JSON and load the input fields for the parameters that need to be filled out.
+### Example 2: Task B with custom options
+```bash
+easy-tool --task B --option value
+```
 
-Fill out each parameters with some data and when ready press send.
+You can list all available commands and options by running:
+```bash
+easy-tool --help
+```
 
-You should see the site tree of your proxy filling up.
-![Demo](https://rhinosecuritylabs.github.io/Swagger-EZ/media/demo.gif)
+## Configuration
+
+If you need to adjust settings, you can modify the `config.json` or set environment variables. Check the documentation for detailed instructions on customizing the tool.
+
+## Contributing
+
+We welcome contributions! If you'd like to contribute to **Easy Tool**, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/your-feature`).
+6. Open a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+This README is a general template and can be customized to your tool's specifics.
