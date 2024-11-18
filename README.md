@@ -1,7 +1,7 @@
 # Easy-Tool
-A tool geared towards pentesting APIs using OpenAPI definitions.
+A tool geared towards pentesting APIs using WinAPI definitions.
 
-We have a version hosted here: https://rhinosecuritylabs.github.io/Swagger-EZ/
+We have a version hosted here: https://rhinosecuritylabs.github.io/Easy-Tool/
 
 Blog post: https://rhinosecuritylabs.com/application-security/simplifying-api-pentesting-swagger-files/
 
